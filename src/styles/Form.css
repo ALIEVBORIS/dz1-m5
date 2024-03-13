@@ -1,0 +1,42 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	width: 500px;
+	padding: 100px;
+	background-color: rgb(199, 199, 199, 0.3);
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+}
+
+input {
+	width: 200px;
+	border: 1px solid;
+	border-radius: 5px;
+	padding: 10px;
+}
+
+button {
+	width: 200px;
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+button:hover {
+	transition: 0.3s;
+	background-color: rgb(24, 24, 145);
+}
+
+.auth {
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	margin-bottom: 50px;
+	margin-right: 20px;
+}
